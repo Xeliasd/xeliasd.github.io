@@ -19,12 +19,32 @@ a {
     line-height: 1.2em;
     color: #999;
 }
-a:hover {
+
+a.intext{
+    color: #72726b;
+}
+
+a.intext:hover{
+	text-decoration: underline;
+	color: #fffda5
+}
+
+a.upmenu:hover{
 	-webkit-transform:scale(1.4);
     -moz-transform:scale(1.4);
     -o-transform:scale(1.4);
 	transform: scale(1.4);
+	color: #ffff44;
 }
+
+a.footie:hover{
+	-webkit-transform:scale(1.2);
+    -moz-transform:scale(1.2);
+    -o-transform:scale(1.2);
+	transform: scale(1.2);
+}
+
+
 h1 {
     font-size: 4em;
     font-family: "Times New Roman", Times, serif;
@@ -58,7 +78,10 @@ ul.posts li {
     list-style: none;
 }
 
-meta{
-	
+.meta{
+	color: #ffffff;
+}
+
+.picovina { 
 	color: #ffffff;
 }
