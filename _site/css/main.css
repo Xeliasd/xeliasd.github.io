@@ -46,21 +46,28 @@ a.footie:hover{
 
 
 h1 {
-    font-size: 4em;
+    font-size: 3.5em;
     font-family: "Times New Roman", Times, serif;
 	font-weight: bold;
-	color: #ffffff;
+	color: #f9f9f9;
 }
 
 h2 {
-    font-size: 2em;
+    font-size: 1.8em;
+    font-family: "Times New Roman", Times, serif;
+	font-weight: bold;
+	color: #d2d4d8;
+}
+
+h3 {
+    font-size: 1.25em;
     font-family: "Times New Roman", Times, serif;
 	font-weight: bold;
 	color: #d2d4d8;
 }
 
 p {
-    font-size: 1.1em;
+    font-size: 1em;
     line-height: 1.1em;
     color: #d9d9d9
 }
@@ -79,9 +86,9 @@ ul.posts li {
 }
 
 .meta{
-	color: #ffffff;
+	color: #f9f9f9;
 }
 
-.picovina { 
-	color: #ffffff;
+.cv{
+    color: #d9d9d9;
 }

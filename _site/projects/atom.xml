@@ -2,7 +2,7 @@
 	<html>
 		<head>
 			<title></title>
-			<!-- link to main stylesheet -->
+			<!-- link main.css stylesheet -->
 			<link rel="stylesheet" type="text/css" href="/css/main.css">
 		</head>
 		<body style="background-color:#0d0d0d;">
@@ -18,15 +18,12 @@
 			</nav>
 			<div class="container">
 			
-			<h1></h1>
-<p class="meta"></p>
-
-<div class="post">
+			<div class="post">
   <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
 	<title>My latest projects</title>
-	<updated>2019-02-28T14:06:49+01:00</updated>
+	<updated>2019-03-01T09:26:44+01:00</updated>
 	<id>http://xeliasd.github.io/projects</id>
 	<author>
 		<name>Daniel Eliáš</name>
@@ -36,9 +33,9 @@
 	
 		<entry>
 			<title>First test post!</title>
-			<link href="http://xeliasd.github.io/blog/2019/02/21/first-test-post"/>
+			<link href="http://xeliasd.github.io/project/2019/02/21/first-test-post"/>
 			<updated>2019-02-21T00:00:00+01:00</updated>
-			<id>http://xeliasd.github.io/blog/2019/02/21/first-test-post</id>
+			<id>http://xeliasd.github.io/project/2019/02/21/first-test-post</id>
 			<content type="html">&lt;p&gt;Uz by sa nieco mohlo konecne aktualizovat.&lt;/p&gt;
 </content>
 		</entry>
@@ -79,11 +76,10 @@
     <a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>	 
 </div>
 			</div>
-			<!-- /.container -->
 			<footer>
 	    		<ul>
 					<li><a class = "footie" href="https://www.fiit.stuba.sk/"><img src="/imgs/fiit2.png" alt="FIIT Logo"></a></li>
-	        		<li><a class = "footie" href="xeliasd@stuba.sk">Email me!</a></li>
+	        		<li><a class = "footie" href="mailto:xeliasd@is.stuba.sk">Email me!</a></li>
 	        		<li><a class = "footie" href="https://xeliasd.github.io/">This website on github.</a></li>
 				</ul>
 			</footer>

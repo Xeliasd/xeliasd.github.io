@@ -1,11 +1,10 @@
 ---
-layout: default
-title: "My projects: New and hopefully interesting stuff"
+layout: post
+title: "My projects"
 ---
 	<h1>{{ page.title }}</h1>
 	<ul class="posts">
-
 	  {% for post in site.posts %}
-	    <li><span class="meta">{{ post.date | date_to_string }}</span> » <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></li>
+	    <li><span class="meta">{{ post.date | date_to_string }} » </span>  <a class="intext" href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></li>
 	  {% endfor %}
 	</ul>
