@@ -92,3 +92,9 @@ ul.posts li {
 .cv{
     color: #d9d9d9;
 }
+
+img.thumb
+{
+  max-width:15%;
+  max-height:15%;
+}

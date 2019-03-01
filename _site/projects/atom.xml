@@ -23,7 +23,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
 	<title>My latest projects</title>
-	<updated>2019-03-01T09:26:44+01:00</updated>
+	<updated>2019-03-01T11:21:43+01:00</updated>
 	<id>http://xeliasd.github.io/projects</id>
 	<author>
 		<name>Daniel Eliáš</name>
@@ -32,11 +32,12 @@
 
 	
 		<entry>
-			<title>First test post!</title>
+			<title>Just a test project.</title>
 			<link href="http://xeliasd.github.io/project/2019/02/21/first-test-post"/>
 			<updated>2019-02-21T00:00:00+01:00</updated>
 			<id>http://xeliasd.github.io/project/2019/02/21/first-test-post</id>
-			<content type="html">&lt;p&gt;Uz by sa nieco mohlo konecne aktualizovat.&lt;/p&gt;
+			<content type="html">&lt;p&gt;This is the first post about a project. Just a test one.
+There is supposedly a problem with the date of this post. What it is I do not understand.&lt;/p&gt;
 </content>
 		</entry>
 	
