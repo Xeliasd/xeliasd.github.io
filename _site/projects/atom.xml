@@ -17,7 +17,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
 	<title>My latest projects</title>
-	<updated>2019-03-07T13:12:16+01:00</updated>
+	<updated>2019-03-07T15:09:42+01:00</updated>
 	<id>http://xeliasd.github.io/projects</id>
 	<author>
 		<name>Daniel Eliáš</name>
@@ -37,9 +37,9 @@ There is supposedly a problem with the date of this post. What it is I do not un
 	
 		<entry>
 			<title>Bachelor thesis</title>
-			<link href="http://xeliasd.github.io/project/2019/02/21/bp-post"/>
-			<updated>2019-02-21T00:00:00+01:00</updated>
-			<id>http://xeliasd.github.io/project/2019/02/21/bp-post</id>
+			<link href="http://xeliasd.github.io/project/2018/09/01/bp-post"/>
+			<updated>2018-09-01T00:00:00+02:00</updated>
+			<id>http://xeliasd.github.io/project/2018/09/01/bp-post</id>
 			<content type="html">&lt;p&gt;My Bachelor thesis is name “Recognising fake news in digital space”. Hopefully I’ll finish it in time…
 &lt;script src=&quot;//www.powr.io/powr.js?external-type=html&quot;&gt;&lt;/script&gt;&lt;/p&gt;
 &lt;div class=&quot;powr-countdown-timer&quot; id=&quot;25717c01_1551956370&quot;&gt;&lt;/div&gt;
