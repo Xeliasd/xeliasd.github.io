@@ -4,9 +4,9 @@
 			<title></title>
 			<!-- link main.css stylesheet -->
 			<link rel="stylesheet" type="text/css" href="/css/main.css">
-		</head>
-		<body style="background-color:#0d0d0d;">
-			<nav>
+		</head>	
+		<body style="background-color:#0d0d0d;">		
+					<nav>
 	    		<ul>
 	        		<li><a class = "upmenu" href="/">Home</a></li>
 	        		<li><a class = "upmenu" href="/projects">Back to all projects</a></li>
@@ -17,7 +17,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
 	<title>My latest projects</title>
-	<updated>2019-03-07T15:09:42+01:00</updated>
+	<updated>2019-03-07T18:12:25+01:00</updated>
 	<id>http://xeliasd.github.io/projects</id>
 	<author>
 		<name>Daniel Eliáš</name>
@@ -66,6 +66,7 @@ There is supposedly a problem with the date of this post. What it is I do not un
     <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
     <a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>	 
 		</div>
+
+
 		</body>
 	</html>
-

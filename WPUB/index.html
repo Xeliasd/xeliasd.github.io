@@ -5,4 +5,7 @@ headingVar: "Task 1: Static website."
 ---
 	<h1>{{ page.title }}</h1>
 	<h2>{{ page.headingVar }}</h2>
-	<p>This website itself is my take on task number one. Details about the website can be found in <a class="intext" href="/docums">Website documentation</a> section.</p>
+	<p>This website itself is my take on task number one. 
+	Details about the website can be found in 
+	<a class="intext" href="{{ site.baseurl }}{% link docums/index.html %}">
+	Website documentation</a> section.</p>

@@ -1,11 +1,6 @@
-<!DOCTYPE html>
-	<html>
-		<head>
-			<title>{{ page.title }}</title>
-			<!-- link main.css stylesheet -->
-			<link rel="stylesheet" type="text/css" href="/css/main.css">
-		</head>
-		<body style="background-color:#0d0d0d;">
+---
+layout: parent
+---
 			<nav>
 	    		<ul>
 	        		<li><a class = "upmenu" href="/">Home</a></li>
@@ -16,16 +11,12 @@
 	        		<li><a class = "upmenu" href="/WPUB">Web publication</a></li>
 	    		</ul>
 			</nav>
-			<div class="container">
-			{{headingVar}}
 			{{ content }}
-			</div>
 			<footer>
 	    		<ul>
 					<li><a class = "footie" href="https://www.fiit.stuba.sk/"><img src="/imgs/fiit2.png" alt="FIIT Logo"></a></li>
 	        		<li><a class = "footie" href="mailto:xeliasd@is.stuba.sk">Email me!</a></li>
 	        		<li><a class = "footie" href="https://xeliasd.github.io/">This website on github.</a></li>
+	        		<li class = "nonlinkfoot" >{{ site.time | date_to_long_string: "ordinal" }}</li>
 				</ul>
 			</footer>
-		</body>
-	</html>

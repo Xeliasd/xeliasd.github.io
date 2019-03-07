@@ -1,0 +1,29 @@
+- short: kalerab
+  type: garden
+  path: /imgs/kalerab.jpg
+  desc: "Our giant, almost 2 kilogram weighing kohlrabi."
+  
+- short: hrach
+  type: garden
+  path: /imgs/hrach1.jpg
+  desc: "Young pea, about a month old"
+  
+- short: salat
+  type: garden
+  path: /imgs/salat.jpg
+  desc: "Young green salad."
+  
+- short: ribs
+  type: cook
+  path: /imgs/ribs.jpg
+  desc: "Honey and chilli glazed pork ribs."
+  
+- short: salat
+  type: cook
+  path: /imgs/salat_kura.jpg
+  desc: "Pasta and vegetables salad with mayonnaise and chicken breast pieces."
+  
+- short: kralik
+  type: cook
+  path: /imgs/kralik_na_vine.jpg
+  desc: "Young bunny baked with white wine and vegetables."

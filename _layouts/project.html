@@ -1,12 +1,7 @@
-<!DOCTYPE html>
-	<html>
-		<head>
-			<title>{{ page.title }}</title>
-			<!-- link main.css stylesheet -->
-			<link rel="stylesheet" type="text/css" href="/css/main.css">
-		</head>
-		<body style="background-color:#0d0d0d;">
-			<nav>
+---
+layout: parent
+---
+		<nav>
 	    		<ul>
 	        		<li><a class = "upmenu" href="/">Home</a></li>
 	        		<li><a class = "upmenu" href="/projects">Back to all projects</a></li>
@@ -20,6 +15,4 @@
 		<div class="notecomments">
 		{% include disqus.html %}	 
 		</div>
-		</body>
-	</html>
 
