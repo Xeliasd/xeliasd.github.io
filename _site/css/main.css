@@ -93,8 +93,21 @@ ul.posts li {
     color: #d9d9d9;
 }
 
+.colm{
+  max-width: 800px;
+  margin: 0 auto;
+  column-width: 12em;
+  column-gap: 2em;
+  column-rule: 1px solid #ccc;
+}
+
+sublink{
+  margin: 0;
+  break-inside: avoid;
+}
+
 img.thumb
 {
-  max-width:15%;
-  max-height:15%;
+  max-width:70%;
+  max-height:70%;
 }

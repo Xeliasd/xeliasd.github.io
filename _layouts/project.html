@@ -1,16 +1,25 @@
----
-layout: default
----
-<div class="post">
-  {{ content }}
-</div>
+<!DOCTYPE html>
+	<html>
+		<head>
+			<title>{{ page.title }}</title>
+			<!-- link main.css stylesheet -->
+			<link rel="stylesheet" type="text/css" href="/css/main.css">
+		</head>
+		<body style="background-color:#0d0d0d;">
+			<nav>
+	    		<ul>
+	        		<li><a class = "upmenu" href="/">Home</a></li>
+	        		<li><a class = "upmenu" href="/projects">Back to all projects</a></li>
+	    		</ul>
+			</nav>
+		<div class="post">
+		  {{ content }}
+		</div>
 
-<!-- Post comments -->
-<div class="notecomments">
-{% include analytics.html %}	 
-</div>
+		<!-- Post comments -->
+		<div class="notecomments">
+		{% include disqus.html %}	 
+		</div>
+		</body>
+	</html>
 
-<!-- Post comments -->
-<div class="notecomments">
-{% include disqus.html %}	 
-</div>

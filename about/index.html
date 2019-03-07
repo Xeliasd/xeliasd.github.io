@@ -4,7 +4,11 @@ title: "About me"
 ---
 	<h1>{{ page.title }}</h1>
 	<p>What I like to do besides programming?</p>
+	<div class="colm">
 	 {% for post in site.categories.About %}
-	  	    <h3><a class="intext" href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></h3>
+		<sublink>
 			<a href="{{ post.url }}" ><img class="thumb" src="{{ post.thumbnail }}"/>
+	  	    <h3><a class="intext" href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></h3>
+		</sublink>
 	 {% endfor %}
+	</div>
