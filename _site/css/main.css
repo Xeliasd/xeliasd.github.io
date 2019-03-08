@@ -20,6 +20,24 @@ a {
     color: #999;
 }
 
+a.upabout
+{
+	display: inline-block;
+    text-decoration: none;
+    font-size: 0.85em;
+    line-height: 1em;
+	color: #d2d4d8;
+}
+
+a.upabout:hover{
+	-webkit-transform:scale(1.4);
+    -moz-transform:scale(1.4);
+    -o-transform:scale(1.4);
+	transform: scale(1.4);
+	color: #ffff44;
+}
+
+
 a.intext{
     color: #72726b;
 }
@@ -123,11 +141,18 @@ img.thumb
   height:135px;
 }
 
+img.icon
+{
+  width:40px;
+  height:27px;
+}
+
 div.gallery {
   margin: 5px;
   border: 1px solid #ccc;
   float: left;
   width: 180px;
+  height: 240px;
   border-radius: 12px;
 }
 
