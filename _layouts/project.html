@@ -8,7 +8,28 @@ layout: parent
 	    		</ul>
 		</nav>
 		<div class="post">
-		  {{ content }}
+			<div class="proj_row">
+				<div class="proj_column">
+				{% assign filt_type =  page.typefilt %}
+				
+				<ul>
+				{% for photo in site.data.images %}
+					{% if photo.type == filt_type %}
+					<div class="proj_pic">
+					<a target="{{ photo.path }}" href="{{ photo.path }}">
+					<img src="{{ photo.path }}" alt="{{ photo.short }}">
+					</a>
+					<div class="desc">{{photo.desc}}</div>
+					</div>
+					{% endif %}
+				{% endfor %}
+				</ul>
+				</div>
+				
+				<div class="proj_column">
+				{{ content }}
+				</div>
+			</div>
 		</div>
 
 		<!-- Post comments -->

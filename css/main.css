@@ -116,6 +116,13 @@ ul.posts li {
     color: #d9d9d9;
 }
 
+.proj_row{
+  display: flex;
+}
+.proj_column{
+  flex: 50%;
+}
+
 .colm{
   max-width: 800px;
   margin: 0 auto;
@@ -149,7 +156,7 @@ img.icon
 
 div.gallery {
   margin: 5px;
-  border: 1px solid #ccc;
+  border: 2px solid #999;
   float: left;
   width: 180px;
   height: 240px;
@@ -157,13 +164,32 @@ div.gallery {
 }
 
 div.gallery:hover {
-  border: 1px solid #777;
+	border-color: #ffff44;
 }
 
 div.gallery img {
   width: 180px;
   height: 140px;
   border-radius: 12px;
+}
+
+div.proj_pic {
+  margin: 5px;
+  border: 2px solid #999;
+  float: left;
+  width: 360px;
+  height: 360px;
+  border-radius: 6px;
+}
+
+div.proj_pic:hover {
+	border-color: #ffff44;
+}
+
+div.proj_pic img {
+  width: 360px;
+  height: 280px;
+  border-radius: 6px;
 }
 
 div.desc {

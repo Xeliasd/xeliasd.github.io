@@ -172,3 +172,33 @@
   type: wow
   path: "/imgs/wow (10).jpg"
   desc: "Flying over old plagued trees"
+  
+- short: bp1
+  type: bp
+  path: "/imgs/BP1.png"
+  desc: "Information map"
+  
+- short: bp2
+  type: bp
+  path: "/imgs/BP2.jpg"
+  desc: "Solution Schema"
+  
+- short: chess1
+  type: chess
+  path: "/imgs/chess.png"
+  desc: "First camera angle"
+  
+- short: chess2
+  type: chess
+  path: "/imgs/chess2.png"
+  desc: "Second camera angle with one of the pieces selected"
+  
+- short: chess3
+  type: chess
+  path: "/imgs/chess3.png"
+  desc: "Another camera angle with selected piece"
+  
+- short: chess4
+  type: chess
+  path: "/imgs/chess4.png"
+  desc: "Checkmate screen"

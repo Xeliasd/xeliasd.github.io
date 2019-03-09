@@ -13,11 +13,103 @@
 	    		</ul>
 		</nav>
 		<div class="post">
-		  <?xml version="1.0" encoding="utf-8"?>
+			<div class="proj_row">
+				<div class="proj_column">
+				
+				
+				<ul>
+				
+					
+				
+					
+				
+					
+				
+					
+				
+					
+				
+					
+				
+					
+				
+					
+				
+					
+				
+					
+				
+					
+				
+					
+				
+					
+				
+					
+				
+					
+				
+					
+				
+					
+				
+					
+				
+					
+				
+					
+				
+					
+				
+					
+				
+					
+				
+					
+				
+					
+				
+					
+				
+					
+				
+					
+				
+					
+				
+					
+				
+					
+				
+					
+				
+					
+				
+					
+				
+					
+				
+					
+				
+					
+				
+					
+				
+					
+				
+					
+				
+					
+				
+				</ul>
+				</div>
+				
+				<div class="proj_column">
+				<?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
 	<title>My latest projects</title>
-	<updated>2019-03-09T10:16:04+01:00</updated>
+	<updated>2019-03-09T11:19:12+01:00</updated>
 	<id>http://xeliasd.github.io/projects</id>
 	<author>
 		<name>Daniel Eliáš</name>
@@ -26,12 +118,12 @@
 
 	
 		<entry>
-			<title>Just a test project.</title>
-			<link href="http://xeliasd.github.io/project/2019/02/21/first-test-post"/>
-			<updated>2019-02-21T00:00:00+01:00</updated>
-			<id>http://xeliasd.github.io/project/2019/02/21/first-test-post</id>
-			<content type="html">&lt;p&gt;This is the first post about a project. Just a test one.
-There is supposedly a problem with the date of this post. What it is I do not understand.&lt;/p&gt;
+			<title>Chess</title>
+			<link href="http://xeliasd.github.io/project/2018/12/01/chess-post"/>
+			<updated>2018-12-01T00:00:00+01:00</updated>
+			<id>http://xeliasd.github.io/project/2018/12/01/chess-post</id>
+			<content type="html">&lt;p&gt;I created a 3D chess as a school project for Principles of computer graphics.
+It was based on OpenGL.&lt;/p&gt;
 </content>
 		</entry>
 	
@@ -40,7 +132,15 @@ There is supposedly a problem with the date of this post. What it is I do not un
 			<link href="http://xeliasd.github.io/project/2018/09/01/bp-post"/>
 			<updated>2018-09-01T00:00:00+02:00</updated>
 			<id>http://xeliasd.github.io/project/2018/09/01/bp-post</id>
-			<content type="html">&lt;p&gt;My Bachelor thesis is named “Recognising fake news in digital space”. Hopefully I’ll finish it in time.
+			<content type="html">&lt;p&gt;My Bachelor thesis is named “Recognising fake news in digital space”.&lt;/p&gt;
+
+&lt;p&gt;In my thesis I have analysed existing solutions to the problem of recognising which news are not true. During my research I found out none of the solutions are really dependable.&lt;/p&gt;
+
+&lt;p&gt;That is why I focused my own work on identifying which news and messages have the most lie-spreading potential and then prioritize fact-checking the most viral news.
+This solution uses not only the possibility of going viral, but also leverages the crowd and users’ ability to mark content as fake. 
+That allows us to reduce as much disinformation spreading as possible without trying to guess whether the article itself is true or false as existing algorithms do not work that well yet.&lt;/p&gt;
+
+&lt;p&gt;Hopefully I’ll finish it in time.
 &lt;script src=&quot;//www.powr.io/powr.js?external-type=html&quot;&gt;&lt;/script&gt;&lt;/p&gt;
 &lt;div class=&quot;powr-countdown-timer&quot; id=&quot;25717c01_1551956370&quot;&gt;&lt;/div&gt;
 </content>
@@ -48,6 +148,8 @@ There is supposedly a problem with the date of this post. What it is I do not un
 	
 
 </feed>
+				</div>
+			</div>
 		</div>
 
 		<!-- Post comments -->
