@@ -7,10 +7,18 @@ nav ul, footer ul {
     padding: 0px;
     list-style: none;
     font-weight: bold;
+	font-color: #d2d4d8;
 }
+
+li
+{
+	color: #d2d4d8;
+}
+
 nav ul li, footer ul li {
 	display: inline-block;
     margin-right: 44px;
+	font-color: #d2d4d8;
 }
 a {
 	display: inline-block;
@@ -102,10 +110,12 @@ footer {
 ul.posts { 
     margin: 20px auto 40px; 
     font-size: 1.5em;
+	font-color: #d2d4d8;
 }
 
 ul.posts li {
     list-style: none;
+	font-color: #d2d4d8;
 }
 
 .meta{

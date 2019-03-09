@@ -109,7 +109,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
 	<title>My latest projects</title>
-	<updated>2019-03-09T11:19:12+01:00</updated>
+	<updated>2019-03-09T13:45:42+01:00</updated>
 	<id>http://xeliasd.github.io/projects</id>
 	<author>
 		<name>Daniel Eliáš</name>
@@ -122,8 +122,70 @@
 			<link href="http://xeliasd.github.io/project/2018/12/01/chess-post"/>
 			<updated>2018-12-01T00:00:00+01:00</updated>
 			<id>http://xeliasd.github.io/project/2018/12/01/chess-post</id>
-			<content type="html">&lt;p&gt;I created a 3D chess as a school project for Principles of computer graphics.
-It was based on OpenGL.&lt;/p&gt;
+			<content type="html">&lt;h2 id=&quot;3d-animated-chess&quot;&gt;3D Animated chess&lt;/h2&gt;
+
+&lt;p&gt;I created a 3D chess as a school project for Principles of computer graphics.
+It was based on OpenGL, written in C++. It works according to internationally recognised rules of chess.&lt;/p&gt;
+
+&lt;h3 id=&quot;controls&quot;&gt;Controls&lt;/h3&gt;
+&lt;p&gt;The selector moves around the playing field using keyboard arrows. Spacebar is used to either select a figure, or select a place where you want your piece to move.
+If you try to make an illegal move, or press spacebar in the same spot as the piece already is, you have to make a different move.&lt;/p&gt;
+
+&lt;h3 id=&quot;graphic-goals-reached&quot;&gt;Graphic goals reached&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Unique 3D meshes&lt;/li&gt;
+&lt;li&gt;Unique texturing using uv coordinates&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;This was accomplished by using custom meshes for chess pieces.&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Animated or interactive camera with perspective projection.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Camera coordinates change after each move, so that players view playing field from their respective sides. Also, when a piece gets removed from the game,
+the camera does shaking “earthquake-like” effect.&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Use of hierarchical transformations in the game scene.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Selector has 2 parts. A circle undearneath the pieces and an arrow floating above them. The bottom circle moves using hierarchical transformation of the arrow.&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Use of multiple camera view presets&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;There are 3 basic camera angle presets as shown in the pictures to the left.&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Implementation of basic game logic, game has multiple scenes, is playable and has an ending.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Achieved by the fact that the whole game works according to usual rules of chess.&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Effective object to object collisions and interactions.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;As pieces move smoothly towards their location, piece removal is triggered when pieces collide.&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Dynamic scene with game objects being created and destroyed during gameplay.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;When a piece gets removed from the game, it flies away, creating a stream of small “explosions” behind it.&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Basic simulated animation eg. gravity.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Gravity is used during the start of the game, when pieces fall down to the playing field from above, also when they they get removed, after 
+they initially fly away, gravity pulls them back down.&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Procedurally driven animations.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Multiple different animations, from smooth piece moving to selector arrow rotation.&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Diffuse scene lighting with materials&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Achieved by using simplet lighting from 2 sources.&lt;/p&gt;
+
 </content>
 		</entry>
 	
@@ -139,6 +201,12 @@ It was based on OpenGL.&lt;/p&gt;
 &lt;p&gt;That is why I focused my own work on identifying which news and messages have the most lie-spreading potential and then prioritize fact-checking the most viral news.
 This solution uses not only the possibility of going viral, but also leverages the crowd and users’ ability to mark content as fake. 
 That allows us to reduce as much disinformation spreading as possible without trying to guess whether the article itself is true or false as existing algorithms do not work that well yet.&lt;/p&gt;
+
+&lt;h3 id=&quot;abstract&quot;&gt;Abstract&lt;/h3&gt;
+&lt;p&gt;In our work we focus on recognising fake news in digital space. 
+First, we delve into the history of fake news to explain how much they can influence people’s opinions and therefore their behaviour. We also talk about different definitions of fake news and misinformation, while putting forth our best classification of what we consider to be fake news. 
+We then explore several possible approaches to recognising misinformation, mainly fake news, and explain how these work, their advantages and disadvantages, and finally results and success rates each them reached during experiments. We talk about linguistic approaches, that are content-based, how they use deep syntax and semantic analysis to label articles and recognise which are untrue. Later we focus on network-based approaches, that try to avoid evaluating content itself, but rather try to use articles’ spreading data on social networks to create more accurate guesses, that do not rely on processing whole article texts. 
+Finally, we propose an improvement to one of these methods that we will try to implement in our work.&lt;/p&gt;
 
 &lt;p&gt;Hopefully I’ll finish it in time.
 &lt;script src=&quot;//www.powr.io/powr.js?external-type=html&quot;&gt;&lt;/script&gt;&lt;/p&gt;

@@ -9,7 +9,7 @@
 						<nav>
 	    		<ul>
 	        		<li><a class = "upmenu" href="/">Home</a></li>
-		        	<li><a class = "upmenu" href="/about">About: unrelated to work</a></li>
+		        	<li><a class = "upmenu" href="/about">About me</a></li>
 	        		<li><a class = "upmenu" href="/cv">CV</a></li>
 	        		<li><a class = "upmenu" href="/projects">My projects</a></li>
 	        		<li><a class = "upmenu" href="/docums">Website documentation</a></li>
@@ -18,8 +18,62 @@
 			</nav>
 			<div class="container">
 				<h1>Documentation</h1>
-	<p>This is where the website documentation will be.</p>
-
+	<p>This website has been made according the task 1 of web publication subject. It's been compiled using Jekyll 3.7.4 as newer version 3.8.5 allowed
+	using liquid in a way that does not work on GitHub pages yet.</p>
+	
+	<ul>
+	<li><h3>3 layouts</h3></li>
+	</ul>	
+	<p>All layouts are based on main layout in /_layouts/parent.html. Then the 3 main layouts are
+	<li><b>Default</b> in /_layouts/default.html - main subpages use this layout. It includes main menu header and footer. Other than that it's simply content.
+	e.g. <a class="intext" href="/">
+	Home</a></li></p>
+	<li><b>About</b> in /_layouts/about.html - used by About posts. Contains double top menu, 
+	one for main navigation and other for navigation between About me posts. Uses cycle for generating gallery, which can be filled by using 
+	variable "typefilt" in each post. The gallery is situated under the main content of post. e.g. <a class="intext" href="/project/2019/03/01/about_cooking">Cooking</a></li></p>
+	<li><b>Project</b> in /_layouts/project.html - used by project posts. Header and footer are not used, instead there is a link to Home and Back to projects page.
+	This is also a double column layout, with pictures in the left column being linked with for cycle through datafile and content, mainly text in the right part. 
+	e.g. <a class="intext" href="/project/2018/12/01/chess-post">Chess</a></li></p>
+	
+	<ul>
+	<li><h3>5 subpages</h3></li>
+	</ul>	
+	<p>The pages listed in the main navigation menu in the top of the website are different subpages. 
+	In addition to that, there are multiple subpages in the form of markdown posts in <a class="intext" href="/about/">
+	About me</a> and <a class="intext" href="/projects/">
+	Projects</a> pages.</p>
+	
+	<ul>
+	<li><h3>5 variables</h3></li>
+	</ul>	
+	<p>The cycle for picture showing in "/_posts/2019-03-03-about_gardening.md" contains 
+	5 variables - photo and it's subvariables photo.type, photo.short, photo.path and photo.desc. Other variables are used to define which picture types
+	belong to each post. There are more variables throughout the website. </p>
+		
+	<ul>
+	<li><h3>Data file</h3></li>
+	</ul>	
+	<p>Data file used is "/_data/images.yml". It's main purpose is to keep track of all images and be able to discern between their respective types,
+	therefore using simple cycles to show all relevant pictures everywhere they're needed.</p>
+	
+	<ul>
+	<li><h3>5 Filters or tags</h3></li>
+	</ul>	
+	<p>
+		<li>_layouts/about.html – used %assign %for and %include. Also "site.data.images | where:"type", filt_type" for filtering</li>
+		<li>_layouts/project.html in addition to above uses also %if</li>
+		<li> Projects/index.html  post.date | date_to_string </li>
+		<li>_Layouts/default.html site.time | date_to_long_string</li>
+	</p>
+	
+	<ul>
+	<li><h3>Plugin</h3></li>
+	</ul>	
+	<p>
+		<li>_layouts/project.html includes disqus, linked from /includes/disqus.html</li>
+		<li><a class="intext" href="/project/2018/09/01/bp-post">Bachelor thesis project</a> also includes external 
+		plugin that counts down to the deadline.</li>
+	</p>
 			</div>
 			<footer>
 	    		<ul>
