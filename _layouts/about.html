@@ -28,6 +28,20 @@ layout: parent
 		<h2>{{ page.title }}</h2>
 		<div class="post">
 		  {{ content }}
+		  
+		{% assign filt_type =  page.typefilt %}
+		{% assign filtered = site.data.images | where:"type", filt_type %}
+		
+		<ul>
+		{% for photo in filtered %}
+			<div class="gallery">
+			<a target="{{ photo.path }}" href="{{ photo.path }}">
+			<img src="{{ photo.path }}" alt="{{ photo.short }}" width="600" height="400">
+			</a>
+			<div class="desc">{{photo.desc}}</div>
+			</div>
+		{% endfor %}
+		</ul>
 		</div>
 
 		<!-- Post comments -->
