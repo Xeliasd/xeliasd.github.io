@@ -202,3 +202,8 @@
   type: chess
   path: "/imgs/Chess4.png"
   desc: "Checkmate screen"
+  
+- short: test
+  type: test
+  path: "test.png"
+  desc: "test"
