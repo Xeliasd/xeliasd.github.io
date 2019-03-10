@@ -185,20 +185,20 @@
   
 - short: chess1
   type: chess
-  path: "/imgs/chess.png"
+  path: "/imgs/Chess.png"
   desc: "First camera angle"
   
 - short: chess2
   type: chess
-  path: "/imgs/chess2.png"
+  path: "/imgs/Chess2.png"
   desc: "Second camera angle with one of the pieces selected"
   
 - short: chess3
   type: chess
-  path: "/imgs/chess3.png"
+  path: "/imgs/Chess3.png"
   desc: "Another camera angle with selected piece"
   
 - short: chess4
   type: chess
-  path: "/imgs/chess4.png"
+  path: "/imgs/Chess4.png"
   desc: "Checkmate screen"
