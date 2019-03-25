@@ -9,3 +9,25 @@ headingVar: "Task 1: Static website."
 	Details about the website can be found in 
 	<a class="intext" href="{{ site.baseurl }}{% link docums/index.html %}">
 	Website documentation</a> section.</p>
+	
+	<h2>Úloha 2: Transformácia vybraného dokumentu do formátu DocBook</h2>
+	<p>Na vypracovanie tejto úlohy som ako predlohu použil svoju rozpracovanú bakalársku prácu. Cieľom bolo vytvoriť prácu podobnú, 
+	ale s väčším zameraním na kvalitný vzhľad výsledku, ako na násilnú podobnosť s východzou prácou.
+	Vysvetlenie splnenia jednotlivých požiadaviek</p>
+	<ul><li><h3>štandardné členenie textu na kapitola, podkapitola, podpodkapitola, príloha, generovaný obsah,</h3></li></ul>
+	<p>Základnú štruktúru som použil priamo zo šablóny. Použité tagy "chapter" "section", príloha - "apendix"</p>
+	<ul><li><h3>zvýraznenie slov, zvýraznenie členenia textu odrážkami alebo číslovaním,</h3></li></ul>
+	<p>Zvýraznenie - "emphasis" s atribútom "role" nastaveným na bold, som použil napr. v anotácií, ale aj priamo v očíslovanom zozname - v "orderedlist". </p>
+	<ul><li><h3>odkazy na iné časti vlastného dokumentu, prípadne odkazy na URL,</h3></li></ul>
+	<p>"ulink" s atribútom "url" napr. ako link na stránku snopes, "xref" s atribútom "linkend" ako odkaz na inú časť dokumentu - použité v jednom z footnotov</p>
+	<ul><li><h3>poznámka pod čiarou,</h3></li></ul>
+	<p>jednoducho "footnote"</p>
+	<ul><li><h3>zoznam použitej literatúry a zdrojov vrátane ich citácie v texte,</h3></li></ul>
+	<p>podľa pôvodného vzoru vytvorený zoznam literatúry, odkazy na citácie v texte taktiež pomocou "xref" "linkend" referencií</p>
+	<ul><li><h3>vloženie obrázku a tabuliek, odkazy na ne v texte; zoznam obrázkov a tabuliek v úvode alebo závere textu,</h3></li></ul>
+	<p>Viaceré obrázky vložené cez tagy "figure", "mediaobject", "imageobject" a "imagedata" s atribútom "fileref". 
+	Vlastná tabuľka je ohraničená tagom "table", atribút "frame" s hodnotou "topbot" znamená, že ohraničenie tabuľky je iba zhora a zdola. Taktiež vnútorné čiary
+	som upravil do požadovaného stavu nastavením "colsep" a "rowsep" na rôznych miestach. Ďalej som použil atribút "align" s hodnotou "center" na vycentrovanie obsahu.</p>
+	<ul><li><h3>vytvorenie registra pojmov (indexu) s pojmami hierarchicky usporiadanými do dvoch úrovni, napríklad „cykly, while“, „cykly, for“ (najmenej ako ukážku na 10-15 pojmoch na predvedenie práce s registrom).</h3></li></ul>
+	<p>Register pojmov sa nachádza na konci dokumentu za literatúrou. Vložený je použitím jednoduchého tagu "index/" a naplnený rôznymi pojmami označenými "indexterm" tagmi.</p>
+
